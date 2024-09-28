@@ -1,39 +1,42 @@
 {
   "main": {
     "navbar": {
-      "home": "Home",
-      "about": "About Me",
-      "education": "Education",
-      "resume": "Work Experience",
+      "home": "In Loving Memory of Dr. Philip L. Lartey",
+      "about": "Obituary",
+      "education": "Memories",
+      "resume": "Funeral",
       "portfolio": "My Projects",
-      "contact": "Contact Me"
+      "contact": "Contact"
     },
-    "name": "Nmae",
+    "name": "Dr. Philip L. Lartey",
     "company": "Felix Fernandez",
     "description": [
-      "In loving Memory"
+      "Father",
+      "Brother",
+      "Husband",
+      "Mentor"
     ],
     "headerBtns": [
       {
-        "name": "instagram",
-        "url": "https://github.com/fj99",
-        "className": "fa fa-instagram"
+        "name": "",
+        "url": "",
+        "className": ""
       }
     ],
     "background_colors": [
-      "#BD10E0",
+      "#e8f6f3",
       "#B8E986",
       "#50E3C2",
       "#FFD300",
       "#E86363"
     ],
     "profile_pic": "images/profilepic.jpg",
-    "bioTitle": "About Us",
+    "bioTitle": "Obituary",
     "bio": "Innovative, deadline-driven and problem solving Full Stack Developer with 4 + years of experience designing and developing for a corporation everyday. I love technology and problem solving I'm always looking how to make things more efficient, and when the opportunity arrives I always try to teach myself new things since I love learning.",
-    "email": "fj99.fernandez@gmail.com",
-    "phone": "203-691-0817",
+    "email": "tmararike12@gmail.com",
+    "phone": "",
     "project": "#portfolio",
-    "contactmessage": "If you wish to get in touch with me just state your name and your business and I will get back to you as soon as I get the chance. ",
+    "contactmessage": "If you wish to get in touch with the Lartey family please state your name and a brief description of your inquiry and we will be in contact shortly. ",
     "contact_side_heading": "",
     "contact_side_msg": [
       {
@@ -63,17 +66,18 @@
     ]
   },
   "resume": {
-    "work_title": "Work Experience",
+    "work_title": "Services",
+    "work_title2": "FAQ",
     "skills_title": "Skills",
     "message": "Here you can create a short write-up of your skills to show off to employers",
     "education": [
       {
-        "image": "images/MIT_Logo.png",
+        "image": "images/gratisography-funflower-800x525.jpg",
         "school": "Massachusetts Institute of Technology (MIT)",
         "degree": "Certification in Data Science and Machine Learning",
         "comment": "Top 10 in my class",
         "graduated": "May 2023",
-        "description": ""
+        "description": "test"
       },
       {
         "image": "images/Southern_Connecticut_State_University.png",
@@ -94,16 +98,42 @@
     ],
     "work": [
       {
-        "company": "PetVetCare",
-        "title": "Full Stack Developer",
-        "years": "August 2023 - Now",
-        "description": "I specialize in developing and implementing Extract, Transform, Load (ETL) processes, notably spearheading the development of a sophisticated system geared towards automating critical End-of-Month (EOM) financial procedures. My technical prowess is showcased through the strategic utilization of Angular for front-end development, C#.NET Core API for robust back-end architecture, and MS SQL for efficient database management. In addition to my core responsibilities, I play a pivotal role as an integral member of the AI team, contributing to advanced predictive analytics for revenue and other financial metrics. My contributions extend beyond ETL refinement to encompass addressing diverse financial requirements and report generation."
+        "company": "Friday October 11th, 2024",
+        "title": "Family invites you for viewing: 6pm-8pm",
+        "years": "Church Street Funeral",
+        "description": "Address: 125 S Church Street Hendersonville, NC 28792"
       },
       {
-        "company": "Southern Connecticut State University",
-        "title": "Full Stack Developer",
-        "years": "Sept 2019 - August 2023",
-        "description": "I programmed, updated, and maintained various web apps, department websites, applications, and databases. As part of this work, I restructured and redesigned web apps to improve their integration with databases. Additionally, I created and edited forms for upload on multiple servers and websites. To enhance workflow and application maintenance, I consolidated 12 databases into a single comprehensive database. I was responsible for maintaining and managing the Guest Sign-in System, utilizing PHP and MySQL databases. Furthermore, I updated and managed the Student Staff Portal using JavaScript, and implemented APIs for data retrieval and Cron-Jobs for data pushing and process automation in the Student Sign-in System. I also debugged and modified the schema of the Staff Admin Portal for improved onboarding of new staff. Successfully upgrading the entire system to a new server was another achievement. Alongside these tasks, I developed and updated websites, both front and back end. I implemented Cron Jobs on Linux to generate notification actions and created a fully functional developer instance for testing purposes, ensuring separation from live sites. I also utilized Git for system backups and documented processes using Confluence. Currently, I am leading a team of developers in the department and providing training to new student programmers in the Department of Residence Life."
+        "company": "Saturday October 12th, 2024",
+        "title": "Viewing: 9am-10am . Funeral Service: 10am-12pm ",
+        "years": "Trinity Presbyterian Church",
+        "description": "Church Address: 900 Blythe Street Hendersonville, NC 28791    Burial Address: Shepard Memorial Park 5045 Asheville Hwy Hendersonville, NC 28791"
+      },
+      {
+        "company": "Sunday October 13th, 2024",
+        "title": "Sunday Church Service 10am-12pm",
+        "years": "Location TBD",
+        "description": "Address TBD"
+      }
+    ],
+    "work2": [
+      {
+        "company": "Attire and Dress Code",
+        "title": "Black and white formal wear",
+        "years": "All services",
+        "description": "Address: 125 S Church Street Hendersonville, NC 28792"
+      },
+      {
+        "company": "Saturday October 12th, 2024",
+        "title": "Viewing: 9am-10am . Funeral Service: 10am-12pm ",
+        "years": "Trinity Presbyterian Church",
+        "description": "Church Address: 900 Blythe Street Hendersonville, NC 28791    Burial Address: Shepard Memorial Park 5045 Asheville Hwy Hendersonville, NC 28791"
+      },
+      {
+        "company": "Sunday October 13th, 2024",
+        "title": "Sunday Church Service 10am-12pm",
+        "years": "Location TBD",
+        "description": "Address TBD"
       }
     ],
     "skills": [

@@ -9,7 +9,7 @@ import Education from "./Components/Education";
 import Resume from "./Components/Resume";
 import Contact from "./Components/Contact";
 import Portfolio from "./Components/Portfolio";
-import Background from "./Components/Backgrounds/Bounce";
+import Background from "./Components/Backgrounds/Base";
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 class App extends Component {
@@ -50,9 +50,9 @@ class App extends Component {
           <Background data={this.state.resumeData.main} />
           <Header data={this.state.resumeData.main} />
           <About data={this.state.resumeData.main} />
-          {/* <Education data={this.state.resumeData.resume} />
+          <Education data={this.state.resumeData.resume} />
         <Resume data={this.state.resumeData.resume} />
-        <Portfolio data={this.state.resumeData.portfolio} /> */}
+        {/* <Portfolio data={this.state.resumeData.portfolio} /> */}
           <Contact data={this.state.resumeData.main} />
           <Footer data={this.state.resumeData.main} />
         </div>

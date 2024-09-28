@@ -66,11 +66,11 @@ const Header = (props) => {
 
           </li>
 
-          <li>
+          {/* <li>
             <a className="smoothscroll" href="#portfolio">
               {portfolio}
             </a>
-          </li>
+          </li> */}
 
           <li>
             <a className="smoothscroll" href="#contact">
@@ -102,7 +102,7 @@ const Header = (props) => {
             </div>
           </Fade>
           <hr />
-          <Fade bottom duration={2000}>
+          {/* <Fade bottom duration={2000}>
             <ul className="social">
               {headerBtns.map((btn, index) => (
                 <li key={index}>
@@ -113,7 +113,7 @@ const Header = (props) => {
               ))}
             </ul>
 
-          </Fade>
+          </Fade> */}
         </div>
       </div>
 

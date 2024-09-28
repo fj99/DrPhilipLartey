@@ -46,7 +46,7 @@ class About extends Component {
                 <div className="columns contact-details">
                   <h2>Contact Details</h2>
                   <p className="address">
-                    {networkElement}
+                    {/* {networkElement} */}
                     {/* <FaLinkedin /> <a href={linkedin} target="_blank">{name}</a> */}
                     {/* {this.props.data.address && (
                       <div>
@@ -55,9 +55,13 @@ class About extends Component {
                         </span>
                       </div>
                     )} */}
-                    <br />
-                    <FaPhone /> <span>{phone}</span>
-                    <br />
+                    {/* <br /> */}
+                    {phone && phone[0].trim() !== "" && (
+                      <span>
+                        <FaPhone /> <span>{phone}</span>
+                      </span>
+                    )}
+                    {/* <br /> */}
                     <FaEnvelope /> <a href={`mailto:${email}`} target="_blank">{email}</a>
                   </p>
                 </div>

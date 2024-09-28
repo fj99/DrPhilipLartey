@@ -16,9 +16,23 @@ class Resume extends Component {
 
     const skillmessage = this.props.data.skillmessage;
     const work_title = this.props.data.work_title;
+    const work_title2 = this.props.data.work_title2;
     const skills_title = this.props.data.skills_title;
 
     const work = this.props.data.work.map(function (work) {
+      return (
+        <div key={work.company}>
+          <h3 className="white">{work.company}</h3>
+          <p className="info off-white">
+            {work.title}
+            <span>&bull;</span> <em className="date">{work.years}</em>
+          </p>
+          <p className="off-white">{work.description}</p>
+        </div>
+      );
+    });
+
+    const work2 = this.props.data.work2.map(function (work) {
       return (
         <div key={work.company}>
           <h3 className="white">{work.company}</h3>
@@ -58,6 +72,18 @@ class Resume extends Component {
             </div>
 
             <div className="nine columns main-col">{work}</div>
+          </div>
+        </Slide>
+
+        <Slide left duration={1300}>
+          <div className="row work">
+            <div className="three columns header-col">
+              <h1 className="white">
+                <span>{work_title2}</span>
+              </h1>
+            </div>
+
+            <div className="nine columns main-col">{work2}</div>
           </div>
         </Slide>
 

@@ -14,7 +14,10 @@
       "Father",
       "Brother",
       "Husband",
-      "Mentor"
+      "Mentor",
+      "Uncle",
+      "Physician",
+      "Advocate"
     ],
     "headerBtns": [
       {
@@ -32,7 +35,7 @@
     ],
     "profile_pic": "images/profilepic.jpg",
     "bioTitle": "Obituary",
-    "bio": "Innovative, deadline-driven and problem solving Full Stack Developer with 4 + years of experience designing and developing for a corporation everyday. I love technology and problem solving I'm always looking how to make things more efficient, and when the opportunity arrives I always try to teach myself new things since I love learning.",
+    "bio": "to be updated",
     "email": "tmararike12@gmail.com",
     "phone": "",
     "project": "#portfolio",
@@ -105,7 +108,7 @@
       },
       {
         "company": "Saturday October 12th, 2024",
-        "title": "Viewing: 9am-10am . Funeral Service: 10am-12pm ",
+        "title": "Viewing: 9am-10am . Funeral Service: 10am-12pm . Burial & Reception to immediately follow ",
         "years": "Trinity Presbyterian Church",
         "description": "Church Address: 900 Blythe Street Hendersonville, NC 28791    Burial Address: Shepard Memorial Park 5045 Asheville Hwy Hendersonville, NC 28791"
       },
@@ -124,10 +127,10 @@
         "description": "Address: 125 S Church Street Hendersonville, NC 28792"
       },
       {
-        "company": "Saturday October 12th, 2024",
-        "title": "Viewing: 9am-10am . Funeral Service: 10am-12pm ",
-        "years": "Trinity Presbyterian Church",
-        "description": "Church Address: 900 Blythe Street Hendersonville, NC 28791    Burial Address: Shepard Memorial Park 5045 Asheville Hwy Hendersonville, NC 28791"
+        "company": "Accomodations",
+        "title": "Holiday Inn & Suites Arden . 9 Brian Blvd Arden, NC 28704  ",
+        "years": "When booking accomodations, please notify the hotel that you will be a part of The Lartey Group",
+        "description": "Hotels are being booked on a first come first serve basis, please book before October 3rd to ensure you get the best rate and availability of rooms. You may book with the group rate anytime between October 6th until October 16th."
       },
       {
         "company": "Sunday October 13th, 2024",

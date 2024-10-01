@@ -3,7 +3,7 @@ import { useSwipeable } from 'react-swipeable';
 
 // Function to load all images from a specific directory
 const loadImages = () => {
-  const images = require.context('images/SlideShow', false, /\.(jpg|jpeg|png)$/);
+  const images = require.context('/public/images/SlideShow', false, /\.(jpg|jpeg|png)$/);
   return images.keys().map((item) => images(item));
 };
 

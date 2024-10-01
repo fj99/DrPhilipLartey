@@ -1,49 +1,60 @@
 import React, { useState, useEffect } from 'react';
-import { useSwipeable } from 'react-swipeable'; // Import swipeable hook
+import { useSwipeable } from 'react-swipeable';
 
-const TOTAL_IMAGES = 5; // Number of images in your folder (adjust this)
+// Function to load all images from a specific directory
+const loadImages = () => {
+  const images = require.context('/public/images/SlideShow', false, /\.(jpg|jpeg|png)$/);
+  return images.keys().map((item) => images(item));
+};
 
 const Slideshow = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
+  const [images, setImages] = useState([]);
+
+  useEffect(() => {
+    const imagePaths = loadImages();
+    setImages(imagePaths);
+  }, []);
 
   // Automatically change the image every 3 seconds
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentIndex((prevIndex) =>
-        prevIndex === TOTAL_IMAGES - 1 ? 0 : prevIndex + 1
+        prevIndex === images.length - 1 ? 0 : prevIndex + 1
       );
-    }, 3000); // 3 seconds interval
+    }, 5000);
 
     return () => clearInterval(interval);
-  }, []);
+  }, [images.length]);
 
   const nextImage = () => {
     setCurrentIndex((prevIndex) =>
-      prevIndex === TOTAL_IMAGES - 1 ? 0 : prevIndex + 1
+      prevIndex === images.length - 1 ? 0 : prevIndex + 1
     );
   };
 
   const prevImage = () => {
     setCurrentIndex((prevIndex) =>
-      prevIndex === 0 ? TOTAL_IMAGES - 1 : prevIndex - 1
+      prevIndex === 0 ? images.length - 1 : prevIndex - 1
     );
   };
 
-  const getImagePath = (index) => `images/SlideShow/${index}.jpg`;
-
-  // Swipe handlers using useSwipeable hook
   const swipeHandlers = useSwipeable({
-    onSwipedLeft: nextImage,  // Swipe left to go to the next image
-    onSwipedRight: prevImage, // Swipe right to go to the previous image
+    onSwipedLeft: nextImage,
+    onSwipedRight: prevImage,
     preventDefaultTouchmoveEvent: true,
-    trackMouse: true, // Enables swipe with a mouse for testing on desktop
+    trackMouse: true,
   });
+
+  if (images.length === 0) {
+    return <div>Loading...</div>; // Loading state while images are being fetched
+  }
 
   return (
     <div {...swipeHandlers} className="slideshow">
       <button onClick={prevImage}>Previous</button>
       <img
-        src={getImagePath(currentIndex)}
+        src={images[currentIndex]}
         alt={`Slide ${currentIndex}`}
         style={{ width: '100%', height: 'auto' }}
       />

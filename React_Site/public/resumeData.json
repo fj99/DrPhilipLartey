@@ -33,7 +33,7 @@
       "#FFD300",
       "#E86363"
     ],
-    "profile_pic": "images/sky.jpg",
+    "profile_pic": "images/profilepic.jpg",
     "bioTitle": "Obituary",
     "bio": "to be updated",
     "email": "tmararike12@gmail.com",
@@ -75,28 +75,20 @@
     "message": "Here you can create a short write-up of your skills to show off to employers",
     "education": [
       {
-        "image": "images/gratisography-funflower-800x525.jpg",
-        "school": "Massachusetts Institute of Technology (MIT)",
-        "degree": "Certification in Data Science and Machine Learning",
-        "comment": "Top 10 in my class",
-        "graduated": "May 2023",
-        "description": "test"
+        "image": "images/MIT_Logo.png",
+        "school": "Header",
+        "degree": "Sub Header",
+        "comment": "Sub-sub Header",
+        "graduated": "info just for you",
+        "description": "paragraph"
       },
       {
-        "image": "images/Southern_Connecticut_State_University.png",
-        "school": "Southern Connecticut State University",
-        "degree": "Computer Science",
-        "comment": "Minor in Mathematics",
-        "graduated": "May 2023",
-        "description": ""
-      },
-      {
-        "image": "images/UConn-University-of-Connecticut-Logo2.png",
-        "school": "University of Connecticut",
-        "degree": "Associate in Mechanical Engineering",
-        "comment": "Minor in Computer Science and Mathematics",
-        "graduated": "May 2019",
-        "description": ""
+        "image": "images/MIT_Logo.png",
+        "school": "Header",
+        "degree": "Sub Header",
+        "comment": "Sub-sub Header",
+        "graduated": "info just for you",
+        "description": "paragraph"
       }
     ],
     "work": [

@@ -75,20 +75,84 @@
     "message": "Here you can create a short write-up of your skills to show off to employers",
     "education": [
       {
-        "image": "images/MIT_Logo.png",
-        "school": "Header",
-        "degree": "Sub Header",
-        "comment": "Sub-sub Header",
+        "image": "images/SlideShow/0.jpg",
+        "school": "T",
+        "degree": "",
+        "comment": "",
         "graduated": "info just for you",
-        "description": "paragraph"
+        "description": ""
       },
       {
-        "image": "images/MIT_Logo.png",
-        "school": "Header",
-        "degree": "Sub Header",
-        "comment": "Sub-sub Header",
+        "image": "images/SlideShow/1.jpg",
+        "school": "",
+        "degree": "",
+        "comment": "",
         "graduated": "info just for you",
-        "description": "paragraph"
+        "description": ""
+      },
+      {
+        "image": "images/SlideShow/2.jpg",
+        "school": "",
+        "degree": "",
+        "comment": "",
+        "graduated": "info just for you",
+        "description": ""
+      },
+      {
+        "image": "images/SlideShow/3.jpg",
+        "school": "",
+        "degree": "",
+        "comment": "",
+        "graduated": "info just for you",
+        "description": ""
+      },
+      {
+        "image": "images/SlideShow/4.jpg",
+        "school": "",
+        "degree": "",
+        "comment": "",
+        "graduated": "info just for you",
+        "description": ""
+      },
+      {
+        "image": "images/SlideShow/5.jpg",
+        "school": "",
+        "degree": "",
+        "comment": "",
+        "graduated": "info just for you",
+        "description": ""
+      },
+      {
+        "image": "images/SlideShow/6.jpg",
+        "school": "",
+        "degree": "",
+        "comment": "",
+        "graduated": "info just for you",
+        "description": ""
+      },
+      {
+        "image": "images/SlideShow/7.jpg",
+        "school": "",
+        "degree": "",
+        "comment": "",
+        "graduated": "info just for you",
+        "description": ""
+      },
+      {
+        "image": "images/SlideShow/8.jpg",
+        "school": "",
+        "degree": "",
+        "comment": "",
+        "graduated": "info just for you",
+        "description": ""
+      },
+      {
+        "image": "images/SlideShow/9.jpg",
+        "school": "",
+        "degree": "",
+        "comment": "",
+        "graduated": "info just for you",
+        "description": ""
       }
     ],
     "work": [

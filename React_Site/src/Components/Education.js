@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { useSwipeable } from 'react-swipeable'; // Import swipeable hook
 
 const TOTAL_IMAGES = 5; // Number of images in your folder (adjust this)
 
@@ -30,8 +31,16 @@ const Slideshow = () => {
 
   const getImagePath = (index) => `images/SlideShow/${index}.jpg`;
 
+  // Swipe handlers using useSwipeable hook
+  const swipeHandlers = useSwipeable({
+    onSwipedLeft: nextImage,  // Swipe left to go to the next image
+    onSwipedRight: prevImage, // Swipe right to go to the previous image
+    preventDefaultTouchmoveEvent: true,
+    trackMouse: true, // Enables swipe with a mouse for testing on desktop
+  });
+
   return (
-    <div className="slideshow">
+    <div {...swipeHandlers} className="slideshow">
       <button onClick={prevImage}>Previous</button>
       <img
         src={getImagePath(currentIndex)}

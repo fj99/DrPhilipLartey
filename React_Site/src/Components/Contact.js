@@ -65,9 +65,9 @@ class Contact extends Component {
                     <label htmlFor="contactName">
                       Name <span className="required">*</span>
                     </label>
-                    <input type="hidden" name="access_key" value="2bfdd531-494d-44bf-9539-f8f008422ee2" />
+                    <input type="hidden" name="access_key" value="5edbd86b-8d06-4f88-a701-c3ee4329dd1e" />
                     <input type="hidden" name="redirect" value="https://web3forms.com/success" />
-                    <input type="hidden" name="from_name" value="My-Website" />
+                    <input type="hidden" name="from_name" value="Dr.PhilipLarteyWebsiteInquiry" />
                     <input
                       type="text"
                       defaultValue=""

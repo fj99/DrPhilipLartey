@@ -9,7 +9,7 @@ import Education from "./Components/Education";
 import Resume from "./Components/Resume";
 import Contact from "./Components/Contact";
 import Portfolio from "./Components/Portfolio";
-import Background from "./Components/Backgrounds/Base";
+import Background from "./Components/Backgrounds/Bounce";
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 class App extends Component {

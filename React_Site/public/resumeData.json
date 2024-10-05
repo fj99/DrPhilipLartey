@@ -11,6 +11,7 @@
     "name": "Dr. Philip L. Lartey",
     "company": "Felix Fernandez",
     "description": [
+      "CELEBRATING THE LIFE OF A JEWEL, HUMBLE MAN LOVED BY MANY",
       "Father",
       "Brother",
       "Husband",
@@ -57,14 +58,9 @@
     "resume": "Resume.pdf",
     "social": [
       {
-        "name": "linkedin",
-        "url": "https://www.linkedin.com/in/felix-fernandez-92a0021b5/",
-        "className": "fa fa-linkedin"
-      },
-      {
-        "name": "github",
-        "url": "https://github.com/fj99",
-        "className": "fa fa-github"
+        "name": "",
+        "url": "",
+        "className": ""
       }
     ]
   },
@@ -166,7 +162,7 @@
         "company": "Friday October 11th, 2024",
         "title": "Family invites you for viewing: 6pm-8pm",
         "years": "Church Street Funeral",
-        "description": "Address: 125 S Church Street Hendersonville, NC 28792"
+        "description": "125 S Church Street Hendersonville, NC 28792"
       },
       {
         "company": "Saturday October 12th, 2024",
@@ -178,7 +174,7 @@
         "company": "Sunday October 13th, 2024",
         "title": "Celebration of Life Church Service 10am-12pm",
         "years": "Hampton Inn Hendersonville",
-        "description": "155 Sugarloaf Rd, Hendersonville, NC 287"
+        "description": "155 Sugarloaf Rd, Hendersonville, NC 28792"
       }
     ],
     "work2": [
@@ -190,9 +186,9 @@
       },
       {
         "company": "Accomodations",
-        "title": "Please fill out the below contact form ASAP for any accommodations that you may need provided to you family.",
+        "title": "Please fill out the below contact form ASAP for any accommodations that you may need provided to your family.",
         "years": "Duration of services",
-        "description": "Stays are being booked on a first come, first serve basis. We ask that you request the dates of stay in which you will need an accommodation and the total of family members in your party."
+        "description": "Stays are being booked on a first come, first serve basis. We ask that you request the dates of stay in which you will need an accommodation, and the total of family members in your party."
       },
       {
         "company": "In Lieu of Flowers",

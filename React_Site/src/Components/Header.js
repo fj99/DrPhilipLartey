@@ -54,16 +54,21 @@ const Header = (props) => {
           </li>
 
           <li>
-            <a className="smoothscroll" href="#edu">
-              {education}
+            <a className="smoothscroll" href="#resume">
+              {resume}
             </a>
           </li>
 
           <li>
-            <a className="smoothscroll" href="#resume">
-              {resume}
+            <a className="smoothscroll" href="#contact">
+              {contact}
             </a>
+          </li>
 
+          <li>
+            <a className="smoothscroll" href="#edu">
+              {education}
+            </a>
           </li>
 
           {/* <li>
@@ -71,12 +76,6 @@ const Header = (props) => {
               {portfolio}
             </a>
           </li> */}
-
-          <li>
-            <a className="smoothscroll" href="#contact">
-              {contact}
-            </a>
-          </li>
 
           {/* <li>
             <a className="smoothscroll" href="#contact">

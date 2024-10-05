@@ -51,6 +51,7 @@ const Slideshow = () => {
   }
 
   return (
+    <section id="edu">
     <div {...swipeHandlers} className="slideshow">
       <button onClick={prevImage}>Previous</button>
       <img
@@ -60,6 +61,7 @@ const Slideshow = () => {
       />
       <button onClick={nextImage}>Next</button>
     </div>
+    </section>
   );
 };
 

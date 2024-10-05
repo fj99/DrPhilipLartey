@@ -62,7 +62,11 @@ class About extends Component {
                       </span>
                     )}
                     {/* <br /> */}
-                    <FaEnvelope /> <a href={`mailto:${email}`} target="_blank">{email}</a>
+                    {email && email[0].trim() !== "" && (
+                      <span>
+                        <FaEnvelope />  <a href={`mailto:${email}`} target="_blank">{email}</a>
+                      </span>
+                    )}
                   </p>
                 </div>
                 {/* <div className="columns download">

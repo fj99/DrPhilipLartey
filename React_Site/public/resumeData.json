@@ -34,12 +34,12 @@
       "#E86363"
     ],
     "profile_pic": "images/profilepic.jpg",
-    "bioTitle": "Obituary",
-    "bio": "to be updated",
-    "email": "tmararike12@gmail.com",
-    "phone": "",
+    "bioTitle": "Tawanda Mararike",
+    "bio": "Point of contact for questions and concerns.",
+    "email": "",
+    "phone": "(828)551-0483",
     "project": "#portfolio",
-    "contactmessage": "If you wish to get in touch with the Lartey family please state your name and a brief description of your inquiry and we will be in contact shortly. ",
+    "contactmessage": "If you need an accommodation to be provided during the duration of the services, please fill out the below form with your FULL first and last name and the total number of members in your party. If there is any further information you would like to provide, do not hesitate to add the details along with your submission. ",
     "contact_side_heading": "",
     "contact_side_msg": [
       {
@@ -157,6 +157,12 @@
     ],
     "work": [
       {
+        "company": "Obituary",
+        "title": "Dr. Philip L. Lartey",
+        "years": "August 18th, 1967 - September 21, 2024",
+        "description": "https://www.churchstreetfuneral.com/obituaries/Dr-Philip-Lartey?obId=33210942"
+      },
+      {
         "company": "Friday October 11th, 2024",
         "title": "Family invites you for viewing: 6pm-8pm",
         "years": "Church Street Funeral",
@@ -170,23 +176,23 @@
       },
       {
         "company": "Sunday October 13th, 2024",
-        "title": "Sunday Church Service 10am-12pm",
-        "years": "Location TBD",
-        "description": "Address TBD"
+        "title": "Celebration of Life Church Service 10am-12pm",
+        "years": "Hampton Inn Hendersonville",
+        "description": "155 Sugarloaf Rd, Hendersonville, NC 287"
       }
     ],
     "work2": [
       {
         "company": "Attire and Dress Code",
-        "title": "Black and white formal wear",
+        "title": "Black and white attire",
         "years": "All services",
-        "description": "Address: 125 S Church Street Hendersonville, NC 28792"
+        "description": ""
       },
       {
         "company": "Accomodations",
-        "title": "Holiday Inn & Suites Arden . 9 Brian Blvd Arden, NC 28704  ",
-        "years": "The Lartey Group",
-        "description": "Hotels are being booked on a first come first serve basis, please book before October 3rd to ensure you get the best rate and availability of rooms. You may book with the group rate (The Lartey Group) anytime between October 6th until October 16th."
+        "title": "Please fill out the below contact form ASAP for any accommodations that you may need provided to you family.",
+        "years": "Duration of services",
+        "description": "Stays are being booked on a first come, first serve basis. We ask that you request the dates of stay in which you will need an accommodation and the total of family members in your party."
       },
       {
         "company": "In Lieu of Flowers",

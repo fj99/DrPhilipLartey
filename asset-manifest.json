@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/DrPhilipLartey/static/css/main.4403a709.css",
-    "main.js": "/DrPhilipLartey/static/js/main.bb4e45be.js",
+    "main.js": "/DrPhilipLartey/static/js/main.a811d34c.js",
     "static/js/770.91daa2b6.chunk.js": "/DrPhilipLartey/static/js/770.91daa2b6.chunk.js",
     "static/js/453.f1dbffcf.chunk.js": "/DrPhilipLartey/static/js/453.f1dbffcf.chunk.js",
     "static/media/0.jpg": "/DrPhilipLartey/static/media/0.915bb861bb95ae33fa30.jpg",
@@ -16,12 +16,12 @@
     "static/media/7.jpg": "/DrPhilipLartey/static/media/7.6d34cf40b593a7f49e1c.jpg",
     "index.html": "/DrPhilipLartey/index.html",
     "main.4403a709.css.map": "/DrPhilipLartey/static/css/main.4403a709.css.map",
-    "main.bb4e45be.js.map": "/DrPhilipLartey/static/js/main.bb4e45be.js.map",
+    "main.a811d34c.js.map": "/DrPhilipLartey/static/js/main.a811d34c.js.map",
     "770.91daa2b6.chunk.js.map": "/DrPhilipLartey/static/js/770.91daa2b6.chunk.js.map",
     "453.f1dbffcf.chunk.js.map": "/DrPhilipLartey/static/js/453.f1dbffcf.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4403a709.css",
-    "static/js/main.bb4e45be.js"
+    "static/js/main.a811d34c.js"
   ]
 }

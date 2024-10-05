@@ -21,7 +21,7 @@ class Resume extends Component {
 
     const work = this.props.data.work.map(function (work) {
       return (
-        <div key={work.company}>
+        <div key={work.company} className="center">
           <h3 className="white">{work.company}</h3>
           <p className="info off-white">
             {work.title}
@@ -32,7 +32,7 @@ class Resume extends Component {
           )}
           {work.link && work.link[0].trim() !== "" && (
             <p className="off-white">
-              <a className="smoothscroll" href={work.link}>
+              <a className="smoothscroll" href={work.link} target="_blank">
                 {work.linkName}
               </a>
             </p>
@@ -43,7 +43,7 @@ class Resume extends Component {
 
     const work2 = this.props.data.work2.map(function (work) {
       return (
-        <div key={work.company}>
+        <div key={work.company} className="center">
           <h3 className="white">{work.company}</h3>
           <p className="info off-white">
             {work.title}

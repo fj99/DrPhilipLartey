@@ -27,7 +27,16 @@ class Resume extends Component {
             {work.title}
             <span>&bull;</span> <em className="date">{work.years}</em>
           </p>
-          <p className="off-white">{work.description}</p>
+          {work.description && work.description[0].trim() !== "" && (
+            <p className="off-white">{work.description}</p>
+          )}
+          {work.link && work.link[0].trim() !== "" && (
+            <p className="off-white">
+              <a className="smoothscroll" href={work.link}>
+                {work.linkName}
+              </a>
+            </p>
+          )}
         </div>
       );
     });
@@ -40,7 +49,14 @@ class Resume extends Component {
             {work.title}
             <span>&bull;</span> <em className="date">{work.years}</em>
           </p>
-          <p className="off-white">{work.description}</p>
+          {work.description && work.description[0].trim() !== "" && (
+            <p className="off-white">{work.description}</p>
+          )}
+          {work.link && work.link[0].trim() !== "" && (
+            <a className="smoothscroll" href={work.link}>
+              {work.link}
+            </a>
+          )}
         </div>
       );
     });

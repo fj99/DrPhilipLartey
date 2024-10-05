@@ -2,11 +2,11 @@
   "main": {
     "navbar": {
       "home": "In Loving Memory of Dr. Philip L. Lartey",
-      "about": "Obituary",
+      "about": "Contact",
       "education": "Memories",
       "resume": "Funeral",
       "portfolio": "My Projects",
-      "contact": "Contact"
+      "contact": "Accommodations"
     },
     "name": "Dr. Philip L. Lartey",
     "company": "Felix Fernandez",
@@ -156,7 +156,9 @@
         "company": "Obituary",
         "title": "Dr. Philip L. Lartey",
         "years": "August 18th, 1967 - September 21, 2024",
-        "description": "https://www.churchstreetfuneral.com/obituaries/Dr-Philip-Lartey?obId=33210942"
+        "description": "",
+        "link": "https://www.churchstreetfuneral.com/obituaries/Dr-Philip-Lartey?obId=33210942",
+        "linkName": "Dr. Philip Lartey Obituary"
       },
       {
         "company": "Friday October 11th, 2024",

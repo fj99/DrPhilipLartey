@@ -162,7 +162,7 @@
       },
       {
         "company": "Friday October 11th, 2024",
-        "title": "Family invites you for vistation: 6pm-8pm",
+        "title": "Family invites you for visitation: 6pm-8pm",
         "years": "Church Street Funeral",
         "description": "125 S Church Street Hendersonville, NC 28792"
       },
@@ -170,7 +170,8 @@
         "company": "Saturday October 12th, 2024",
         "title": "Visitation: 9am-10am . Funeral Service: 10am-12pm . Burial & Reception to immediately follow ",
         "years": "Trinity Presbyterian Church",
-        "description": "Church Address: 900 Blythe Street Hendersonville, NC 28791    Burial Address: Shepherd Memorial Park 5045 Asheville Hwy Hendersonville, NC 28791"
+        "description": "Church Address: 900 Blythe Street Hendersonville, NC 28791",
+        "description2": "Burial Address: Shepherd Memorial Park 5045 Asheville Hwy Hendersonville, NC 28791"
       },
       {
         "company": "Sunday October 13th, 2024",
@@ -182,19 +183,19 @@
     "work2": [
       {
         "company": "Attire and Dress Code",
-        "title": "Black and white attire",
-        "years": "All services",
+        "title": "Black and white attire for all services.",
+        "years": "",
         "description": ""
       },
       {
         "company": "Accomodations",
         "title": "Please fill out the below contact form ASAP for any accommodations that you may need provided to your family.",
-        "years": "Duration of services",
+        "years": "",
         "description": "Stays are being booked on a first come, first serve basis. We ask that you request the dates of stay in which you will need an accommodation, and the total of family members in your party."
       },
       {
         "company": "In Lieu of Flowers",
-        "title": "Family and Friends may send all money contributions to Merrill Lynch A. Bank of America Company",
+        "title": "Family and friends may send all money contributions to Merrill Lynch A. Bank of America Company",
         "years": "Trust Account for: Lartey & Mabunda Trust",
         "description": "Cashapp: @KudzaiMabunda OR Zelle to 828-337-2776"
       }

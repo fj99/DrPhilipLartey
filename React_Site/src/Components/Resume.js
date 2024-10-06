@@ -25,7 +25,11 @@ class Resume extends Component {
           <h3 className="white">{work.company}</h3>
           <p className="info off-white">
             {work.title}
-            <span>&bull;</span> <em className="date">{work.years}</em>
+            {work.years && work.years[0].trim() !== "" && (
+              <span>
+                <span>&bull;</span> <em className="date">{work.years}</em>
+              </span>
+            )}
           </p>
           {work.description && work.description[0].trim() !== "" && (
             <p className="off-white">{work.description}</p>
@@ -50,8 +54,11 @@ class Resume extends Component {
           <h3 className="white">{work.company}</h3>
           <p className="info off-white">
             {work.title}
-            <span>&bull;</span> <em className="date">{work.years}</em>
-          </p>
+            {work.years && work.years[0].trim() !== "" && (
+              <span>
+                <span>&bull;</span> <em className="date">{work.years}</em>
+              </span>
+            )}          </p>
           {work.description && work.description[0].trim() !== "" && (
             <p className="off-white">{work.description}</p>
           )}

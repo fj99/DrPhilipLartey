@@ -30,6 +30,9 @@ class Resume extends Component {
           {work.description && work.description[0].trim() !== "" && (
             <p className="off-white">{work.description}</p>
           )}
+          {work.description2 && work.description2[0].trim() !== "" && (
+            <p className="off-white">{work.description2}</p>
+          )}
           {work.link && work.link[0].trim() !== "" && (
             <p className="off-white">
               <a className="smoothscroll" href={work.link} target="_blank">

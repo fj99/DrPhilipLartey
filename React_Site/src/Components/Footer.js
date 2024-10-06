@@ -29,7 +29,7 @@ class Footer extends Component {
                 <li>&copy; {name} </li>
                 <li>
                   Created by{" "}
-                  <a title="Author" href={site}>
+                  <a title="Author" href={site} target="_blank">
                     {company}
                   </a>
                 </li>
